@@ -866,14 +866,3 @@ function generateKeys(keyByte){
     }
     return keys;
 }
-
-let u = 'xianyc1521'
-let p = 'Pdx25032002'
-let lt_list = ['LT-373512-NtcFerwokUj4vlewqZ6GfdM9raQB9K-tpass',
-    'LT-373514-ewxcjdfr4NV544pqrLNNiXS7WdfDlB-tpass',
-    'LT-373515-dNZqVxi2siIFWZFTy47ZLaBlOY7xvJ-tpass']
-for (let i = 0;i<3;i++){
-    let lt = lt_list[i]
-    console.log(strEnc(u+p+lt,'1','2','3'))
-}
-console.log(strEnc(u+p,'1','2','3'))
